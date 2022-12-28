@@ -134,6 +134,7 @@ a.btn,
 button.btn {
   line-height: 1;
   font-size: 18px;
+  font-weight: bold;
 }
 
 input,textarea,select,button,.btn-primary {
@@ -390,7 +391,7 @@ ul.tabList li.active a {
 }
 
 .fakelink:hover {
-    color: #336699;
+    color: #22a604;
     text-decoration: none;
 }
 
@@ -575,16 +576,16 @@ input[type=submit],
 
 .btn-normal,
 .btn-normal:link {
-    color: #fff;
-    background-color: #3498db;
-    border: 1px solid #3498db;
+    color: rgb(255, 255, 255);
+    background-color: #64cb4c;
+    border: 1px solid #64cb4c;
 }
 
 button:hover,
 input[type=button]:hover,
 input[type=submit]:hover,
 .btn-primary:hover {
-    background-color: #34a2ee;    
+    background-color: #ffffff;    
 }
 
 
@@ -619,7 +620,7 @@ font-weight: bold;
 }
 
 .navbar-btn {
-  background-color:#95afc0;
+  background-color:#000000;
   color:white;
   padding:4px;
   margin-right:8px;
@@ -756,7 +757,7 @@ a.flip {
   padding: 4px 10px 7px 10px;
 }
 #stateModalBtn {
-  padding: 4px 10px 7px 10px;
+  padding: 10px 10px 10px 10px;
 }
 #shutdownButton {
   padding: 3px 10px 5px 10px;
