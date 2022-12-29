@@ -2470,7 +2470,7 @@ select.form-control:focus::-ms-value {
     padding: .25rem .5rem;
     font-size: .875rem;
     line-height: 1.5;
-    border-radius: .2rem
+    border-radius: 28px;
 }
 
 .form-control-lg {
@@ -2510,8 +2510,10 @@ textarea.form-control {
 
 .form-row>.col,
 .form-row>[class*=col-] {
-    padding-right: 5px;
-    padding-left: 5px
+    padding-right: 50px;
+    padding-left: 85px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .form-check {
@@ -4737,7 +4739,7 @@ input[type=submit].btn-block {
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     background-color: #64cb4c
 }
 
